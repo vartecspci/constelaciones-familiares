@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+.pnpm-debug.log
+
+# Variables de entorno
+.env
+.env.local
+
+# Build y logs
+dist/
+build/
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
