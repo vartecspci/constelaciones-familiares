@@ -1,0 +1,9 @@
+{
+  "models": [{
+    "model": "llama3.1:8b-q4_0",  // Modelo más rápido que 6.7b
+    "device": "cpu",
+    "num_thread": 10,              // 10 núcleos (deja 2 para sistema)
+    "num_ctx": 512,                // Contexto mínimo para velocidad
+    "temperature": 0.1             // Respuestas más deterministas
+  }]
+}
